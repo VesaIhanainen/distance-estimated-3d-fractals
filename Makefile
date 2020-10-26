@@ -1,6 +1,6 @@
 CXXFLAGS=-O3 -Wall -Werror -std=c++17 -pedantic -ggdb
 LIBS=
-PKGS_GPU=glfw3 gl
+PKGS_GPU=glfw3 gl glm
 CXXFLAGS_GPU=-O3 -Wall -Werror -std=c++17 -pedantic -ggdb `pkg-config --cflags $(PKGS_GPU)`
 LIBS_GPU=`pkg-config --libs $(PKGS_GPU)`
 
