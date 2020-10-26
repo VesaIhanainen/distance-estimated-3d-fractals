@@ -3,3 +3,4 @@ output.png
 cpu
 gpu
 out/
+.vscode/
